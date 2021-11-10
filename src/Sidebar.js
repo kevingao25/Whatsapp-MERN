@@ -12,7 +12,7 @@ function Sidebar() {
 		<div className="sidebar">
 			<div className="sidebar_header">
 				<Avatar src="https://avatars.githubusercontent.com/u/68712791?v=4" />
-				<div class="sidebar_headerRight">
+				<div className="sidebar_headerRight">
 					<IconButton>
 						<DonutLargeIcon></DonutLargeIcon>
 					</IconButton>
@@ -25,16 +25,14 @@ function Sidebar() {
 				</div>
 			</div>
 
-			<div class="sidebar_search">
-				<div class="sidebar_searchContainer">
+			<div className="sidebar_search">
+				<div className="sidebar_searchContainer">
 					<SearchIcon />
 					<input placeholder="Search or start new chat" type="text" />
 				</div>
 			</div>
 
-			<div class="sidebar_chats">
-				<SidebarChat />
-				<SidebarChat />
+			<div className="sidebar_chats">
 				<SidebarChat />
 			</div>
 		</div>
